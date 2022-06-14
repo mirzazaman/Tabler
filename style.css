@@ -1,0 +1,76 @@
+        *{
+            margin: 0%;
+            padding: 0%;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-transform: capitalize;
+            color: rgb(37, 37, 37);
+            background:rgb(236, 255, 191);
+        }
+        html{
+            font-size: 16px;
+        }
+        *:hover{
+            transition: 1s;
+            color: rgb(27, 171, 255);
+        }
+        #headerDiv{
+            padding: .5rem 1rem;
+            width: 5.5rem;
+            margin: 3rem auto 0;
+        }
+        input,label{
+            width: 3rem;
+            font-size: 1.25rem;
+        }
+        #secondL{
+            margin-left: 1.5rem;
+        }
+        #inputDiv{
+            padding: 2rem;
+            width: 27rem;
+            margin: auto;
+        }
+        #btnDiv{
+            position: relative;
+            top: -2.25rem;
+            float: right;
+            display: inline-flex;
+        }
+        #btn{
+            font-size: 1.25rem;
+            width: 2.5rem;
+            height: 2.5rem;
+            border-radius: 50%;
+        }
+        #container{
+            font-size: 1.5rem;
+            width: 25rem;
+            margin: auto;
+        }
+        td{
+            padding: .5rem 1.5rem;
+        }
+        #clearBtn{
+            border: ridge;
+            padding: .5rem;
+        }
+
+        /* Resposivenes */
+
+        @media (max-width:490px){
+            html{
+                font-size: 13px;
+            }
+        }
+
+        @media (max-width:390px){
+            html{
+                font-size: 10px;
+            }
+        }
+
+        @media (max-width:290px){
+            html{
+                font-size: 7px;
+            }
+        }
